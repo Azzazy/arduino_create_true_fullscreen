@@ -1,10 +1,11 @@
 # True Fullscreen
 A chrome extension to enable True Fullscreen in the Arduino Create online IDE
 
-The IDE has a fullscreen feature but it only closes the sidemenu without hiding the top or bottom sections. This extension simply removes the HTML and style of all the sections,leaving only the editor.
+The IDE has a fullscreen feature but it only closes the sidemenu without hiding the top or bottom sections. This extension simply removes the HTML and style of all the sections, leaving only the editor.
 
 ## How to use
 Add it to chrome just like [this](https://developer.chrome.com/extensions/getstarted) getting started tutorial says.
+To close the True Fullscreen simply refresh the page, fortunately Arduino Create autosaves.
 
 ## Knwon bugs
 1. The fullscreen button of the IDE is still there.
