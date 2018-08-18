@@ -1,0 +1,14 @@
+{
+  "name": "Arduino True Fullscreen",
+  "version": "1.5",
+  "description": "View Arduino Create in True Fullscreen mode.",
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
